@@ -1,47 +1,50 @@
-# horiseon-accessibility-code-refactor
+## Deployed Application
 
-## Refactor of the Horiseon web page to follow accessibility standards and optimize for search engines.
+View the Work Day Time Block Planner at: https://codemasterbrown.github.io/App-Calendar/
 
-## User Story
+## Table of Contents
+
+1. [Description](#Description)
+2. [Technologies](#technologies)
+3. [Requirements](#Requirements)
+
+
+## Description
+
+This project is a calendar application that allows a user to plan hourly time blocks in a day. The application displays each hourly block from 9 am to 5 pm and users can save events in each time block. Hourly blocks are color coded: Gray blocks are in the past, red is the present hour, and green blocks are future hours. A clear button allows the user to clear all calendar events from the day.
+
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Bootstrap - https://getbootstrap.com/
+- Moment JS - https://momentjs.com/ 
+
+## Requirements
+
+### User Story
 
 ```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 ```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
 ```
-
-## Changes made
-
-- added a more descriptive title
-- added semantic tags (header, nav, section, article, aside, footer)
-- changed h3 tags to h2 tags in aside to fix hierarchy and restyled to make the font smaller
-- added alt text for images
-- consolidated repetitive css and made selectors more specific
-- re-organized css to better match sections in html
-- fixed missing id to make menu link work correctly
-- commented HTML and CSS for readability and clarity
-
-
-## Screenshot
-
-![HoriseonScreen](https://user-images.githubusercontent.com/16748389/85058961-de2a7780-b170-11ea-9607-506f1524d142.jpeg)
-
-## Deployed page
-
-Page published at: https://codemasterbrown.github.io/Horiseon-Agency/
