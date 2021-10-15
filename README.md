@@ -52,4 +52,4 @@ THEN the saved events persist
 
 ## Contact
 
-- [Ray Brown](https://github.com/codemasterbrown)
+- https://github.com/codemasterbrown
